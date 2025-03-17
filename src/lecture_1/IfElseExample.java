@@ -1,3 +1,5 @@
+package lecture_1;
+
 public class IfElseExample {
     public static void main(String[] args) {
         int number = 10;

@@ -12,12 +12,12 @@
 ### 2. **Run the compiled Java program**
 
    ```shell
-   java -cp out Program
+   java -cp out lecture_1.Program
    ```
 
 - `java` → Java runtime.
 - `-cp out` → Specifies the classpath to the compiled files.
-- `Program` → The main class containing `public static void main(String[] args)`.
+- `lecture_1.Program` → The main class containing `public static void main(String[] args)`.
 
 ### 3. **Create a JAR file**
 
@@ -26,10 +26,10 @@ Create `MANIFEST.MF` in project root directory with the following content:
 
    ```
    Manifest-Version: 1.0
-   Main-Class: Program
+   Main-Class: lecture_1.Program
    ```
 
-(Make sure that a `Program` Class exists in src and it contains `public static void main(String[] args)`)
+(Make sure that a `lecture_1.Program` Class exists in src and it contains `public static void main(String[] args)`)
 
    ```shell
    jar cvfm myapp.jar MANIFEST.MF -C out .

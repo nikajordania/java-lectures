@@ -1,9 +1,9 @@
-public class WhileLoopExample {
+package lecture_1;
+
+public class ForLoopExample {
     public static void main(String[] args) {
-        int i = 1;
-        while (i <= 5) {
+        for (int i = 1; i <= 5; i++) {
             System.out.println("Iteration: " + i);
-            i++;
         }
     }
 }
