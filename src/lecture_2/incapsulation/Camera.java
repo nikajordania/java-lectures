@@ -16,4 +16,12 @@ public class Camera {
             System.out.println("Not enough memory!");
         }
     }
+
+    public int getMemory() {
+        return memory;
+    }
+
+    public String[] getPhotos() {
+        return photos;
+    }
 }
