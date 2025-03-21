@@ -1,3 +1,5 @@
+package lecture_1;
+
 public class Car {
     String brand;
     int speed;
